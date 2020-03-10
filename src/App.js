@@ -22,7 +22,7 @@ class App extends React.Component {
 
     home: {
       title: "Aesthetics & Functionality",
-      subTitle: "A happy partnership",
+      subTitle: "A beautiful partnership",
       text: "My latest projects..."
     },
 
