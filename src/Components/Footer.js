@@ -15,7 +15,7 @@ function Footer(){
                 </Col>
 
                 <Col className="p-0 d-flex justify-content-end" md={3}>
-                    This website was created by Jay Wen.
+                    This website was crafted by Jay Wen.
                 </Col>
                 </Row>
 

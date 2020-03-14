@@ -21,9 +21,9 @@ class App extends React.Component {
     ],  
 
     home: {
-      title: "Aesthetics & Functionality",
-      subTitle: "A beautiful partnership",
-      text: "My latest projects..."
+      title: "Hi, I'm Jay!",
+      subTitle: "Aesthetics & Functionality",
+      text: "I'm a software engineer with a background in e-commerce website management, photography, marketing, and media production. Here are some of my latest projects..."
     },
 
     about: {

@@ -1,9 +1,7 @@
 import React from 'react';
-// import hierloom_salad from '../assets/images/hierloom_salad.png';
-// import ice_cream from '../assets/images/ice_cream.jpg';
-// import townhouse from '../assets/images/townhouse.jpg'
-import test from '../assets/heirloom_salad.png'
-import asd from "../assets/ice_cream.jpg"
+import heirloom_salad from '../assets/images/heirloom_salad.png';
+import ice_cream from '../assets/images/ice_cream.jpg';
+import townhouse from '../assets/images/townhouse.JPG'
 
 import Card from '../Components/Card';
 import Container from 'react-bootstrap/Container';
@@ -16,8 +14,7 @@ class Carousel extends React.Component {
                 id: 0,
                 title: "Something",
                 subTitle: "sub something",
-                // imgSrc: hierloom_salad,
-                imgSrc: "../assets/heirloom_salad.png",
+                imgSrc: heirloom_salad,
                 link: "www.behance.net/jaywenphoto",
                 selected: false
             },
@@ -26,8 +23,7 @@ class Carousel extends React.Component {
                 id: 1,
                 title: "Something 2",
                 subTitle: "sub something 2",
-                // imgSrc: ice_cream,
-                imgSrc: "../assets/ice_cream.jpg",
+                imgSrc: ice_cream,
                 link: "www.behance.net/jaywenphoto",
                 selected: false
             },
@@ -35,8 +31,7 @@ class Carousel extends React.Component {
                 id: 2,
                 title: "Something3",
                 subTitle: "sub something3",
-                // imgSrc: townhouse,
-                imgSrc: "../assets/townhouse.jpg",
+                imgSrc: townhouse,
                 link: "www.behance.net/jaywenphoto",
                 selected: false
             },
@@ -62,7 +57,7 @@ class Carousel extends React.Component {
 
 
     makeItems = (items) => {
-        console.log("items array", items)
+        // console.log("items array", items)
         return items.map(item => {
             console.log("individual item", item)
             return <Card item={item} click={(e => this.handleCardClick(item.id, e))} key={item.id} />
