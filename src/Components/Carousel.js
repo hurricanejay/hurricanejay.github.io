@@ -15,7 +15,7 @@ class Carousel extends React.Component {
                 title: "Something",
                 subTitle: "sub something",
                 imgSrc: heirloom_salad,
-                link: "www.behance.net/jaywenphoto",
+                link: "http://www.behance.net/jaywenphoto",
                 selected: false
             },
 
@@ -24,7 +24,7 @@ class Carousel extends React.Component {
                 title: "Something 2",
                 subTitle: "sub something 2",
                 imgSrc: ice_cream,
-                link: "www.behance.net/jaywenphoto",
+                link: "http://www.behance.net/jaywenphoto",
                 selected: false
             },
             {
@@ -32,7 +32,7 @@ class Carousel extends React.Component {
                 title: "Something3",
                 subTitle: "sub something3",
                 imgSrc: townhouse,
-                link: "www.behance.net/jaywenphoto",
+                link: "http://www.behance.net/jaywenphoto",
                 selected: false
             },
         ]
@@ -59,7 +59,7 @@ class Carousel extends React.Component {
     makeItems = (items) => {
         // console.log("items array", items)
         return items.map(item => {
-            console.log("individual item", item)
+            // console.log("individual item", item)
             return <Card item={item} click={(e => this.handleCardClick(item.id, e))} key={item.id} />
         })
     }

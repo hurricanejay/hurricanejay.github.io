@@ -8,7 +8,7 @@ import Nav from 'react-bootstrap/Nav';
 import Footer from './Components/Footer'
 import Homepage from './Pages/Homepage';
 import AboutPage from './Pages/AboutPage';
-import ContactPage from './Pages/ContactPage';
+// import ContactPage from './Pages/ContactPage';
 
 class App extends React.Component {
 
@@ -22,7 +22,7 @@ class App extends React.Component {
 
     home: {
       title: "Hi, I'm Jay!",
-      subTitle: "Aesthetics & Functionality",
+      subTitle: "aesthetics & functionality",
       text: "I'm a software engineer with a background in e-commerce website management, photography, marketing, and media production. Here are some of my latest projects..."
     },
 
@@ -30,9 +30,9 @@ class App extends React.Component {
       title: "About Me",
     },
 
-    contact: {
-      title: "Say Hi!",
-    }
+    // contact: {
+    //   title: "Say Hi!",
+    // }
 
   }
 
@@ -49,15 +49,15 @@ class App extends React.Component {
                 
                 <Nav className="ml-auto">
                   <Link className="nav-link" to="/">Home</Link>
-                  <Link className="nav-link" to="/">About</Link>
-                  <Link className="nav-link" to="/">Contact</Link>
+                  <Link className="nav-link" to="/about">About</Link>
+                  {/* <Link className="nav-link" to="/">Contact</Link> */}
                 </Nav>
                 </Navbar.Collapse>
               </Navbar>
 
               <Route path="/" exact render={() => <Homepage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
               <Route path="/about" render={() => <AboutPage title={this.state.about.title}/> }/>
-              <Route path="/contact" render={() => <ContactPage title={this.state.contact.title}/> }/>
+              {/* <Route path="/contact" render={() => <ContactPage title={this.state.contact.title}/> }/> */}
               <Footer />
             </Container>
 
