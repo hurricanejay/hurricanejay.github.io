@@ -13,8 +13,8 @@ function AboutPage(props) {
               
             <p>I am a full stack software engineer with a passion for beautiful design and functionality.</p>
             <p>Before becoming a software engineer, I worked in e-commerce as a website manager and in media as a photographer, producer and talent.</p>
-            <p>From a young age I was always fussing around with websites - I was blogging (blogger, tumblr, livejournal) or updating my Myspace. I found myself to constantly tweek the look and feel of the site. It wasn't until many years later that I re-discovered my passion for the designing on the interwebz.</p>
-<br />
+            <p>From a young age I was always fussing around with websites - I was blogging (blogger, tumblr, livejournal) or updating my Myspace. I was constantly tweeking the styling of the site. It wasn't until many years later that I re-discovered my passion for the creating things on the interwebz.</p>
+            <br />
             <h4>3 Fun Facts:</h4>
             <ul>
                 <ol>I am a HUGE plant nerd. At one point I've had ~100 plants in my backyard garden. </ol>
