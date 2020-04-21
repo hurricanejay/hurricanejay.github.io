@@ -4,7 +4,7 @@ import Carousel from '../Components/Carousel';
 
 function Homepage(props) {
     return(
-        <div>
+        <div className="home">
             <Hero title={props.title} subTitle={props.subTitle} text={props.text} />
             <Carousel />
         </div>

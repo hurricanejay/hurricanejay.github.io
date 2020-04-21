@@ -7,7 +7,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
 class Carousel extends React.Component {
-    state = { 
+    state = {
         items: [
             {
                 id: 0,
@@ -27,12 +27,12 @@ class Carousel extends React.Component {
                 selected: false
             },
             // {
-                // id: 2,
-                // title: "Something3",
-                // subTitle: "sub something3",
-                // imgSrc: townhouse,
-                // link: "http://www.behance.net/jaywenphoto",
-                // selected: false
+            // id: 2,
+            // title: "Something3",
+            // subTitle: "sub something3",
+            // imgSrc: townhouse,
+            // link: "http://www.behance.net/jaywenphoto",
+            // selected: false
             // },
         ]
     }
@@ -44,7 +44,7 @@ class Carousel extends React.Component {
         items[id].selected = items[id].selected ? false : true;
 
         items.forEach(item => {
-            if(item.id !== id) {
+            if (item.id !== id) {
                 item.selected = false;
             }
         });
@@ -63,7 +63,7 @@ class Carousel extends React.Component {
 
 
     render() {
-        return(
+        return (
             <Container fluid={true}>
                 <Row className="justify-content-around">
                     {this.makeItems(this.state.items)}
