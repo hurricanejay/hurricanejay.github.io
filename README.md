@@ -1,2 +1,2 @@
-# hurricanejay.github.io
-Jay's Portfolio
+# Jay's Portfolio
+Jay's Software Engineering Portfolio
