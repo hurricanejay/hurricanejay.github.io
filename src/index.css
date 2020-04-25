@@ -1,30 +1,39 @@
 body {
   margin: 0;
-  font-family: 'Domine', serif;
+  font-family: 'Domine', serif, 'Questrial', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: 'Domine', serif;
-}
-
-.p-0 {
-  font-family: 'Domine', serif;
+  font-family: 'Domine', serif, 'Questrial', sans-serif;
 }
 
 .j-card {
-  margin: 20px;
+  margin: 10px;
 } 
+.nav-link {
+  color: #7daa92;
+  font-family: 'Domine', serif;
+  font-size: 13px;
+}
+
+.mt-5 {
+  font-family: 'Questrial', sans-serif;
+}
 
 .j-card-info {
   margin-top: 10px;
   min-height: 100px;
+  vertical-align: top;
+  color: #7daa92;
+  font-family: 'Questrial', sans-serif;
 }
 
 .j-card-image {
-  width: 550px;
+  width:550px;
   height: 350px;
+  
 }
 
 .j-card-title {
@@ -39,13 +48,27 @@ code {
 
 .about-me {
   text-align: justify;
-  width: 400px;
   margin: 0 auto;
+  margin-left: 6%;
 }
 
+.about-me-div {
+  display: inline-block; 
+  width: 370px;
+  margin: 15px;
+  vertical-align: middle;
+  font-family: 'Questrial', sans-serif;
+
+}
+
+
+
 .img {
-  width: 300px;
-  margin: 0 auto;
+  width: 360px;
+  margin: 10px auto;
+  padding: 20px;
+  border: 1px solid #000000;
+
 }
 
 .home, .about-me {
@@ -53,6 +76,5 @@ code {
 }
 
 .home {
-  width: 800px;
   margin: 0 auto;
 }
