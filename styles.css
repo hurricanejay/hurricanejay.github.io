@@ -104,6 +104,29 @@ a:hover:after {
   text-align: center;
 }
 
+@media screen and (max-width: 768px){
+  .overlay{
+    display:none;
+  }
+
+  .navbar{
+    margin:5px;
+  }
+
+  .mobile-text{
+    text-align:center;
+    margin:20px;
+  }
+
+
+}
+
+@media screen and (min-width: 768px){
+  .mobile-text{
+    display:none;
+  }
+}
+
 footer{
   text-transform: capitalize;
   text-align:center;
