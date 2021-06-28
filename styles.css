@@ -25,7 +25,12 @@ nav ul{
 
 nav li{
   padding:20px 40px;
+}
 
+@media screen and (max-width: 768px){
+  nav li{
+    padding:20px 15px;
+  }
 }
 
 a, .dropbtn{
