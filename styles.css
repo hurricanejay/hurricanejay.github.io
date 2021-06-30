@@ -4,10 +4,21 @@ body {
   font-family: 'Prata', serif;
 }
 
-.menu-container{
-  display: flex;
-  width: 100%;
-  justify-content: space-around;
+.logo{
+  font-size:40px;
+  text-align:center;
+  font-weight:bold;
+  text-transform: uppercase;
+  padding:20px;
+}
+
+a {
+  font-family: 'Tenor Sans', sans-serif;
+  font-size: 16px;
+  color: #A188A6;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 /* Navbar container */
@@ -131,7 +142,7 @@ body {
   text-align: center;
 }
 
-/* MEDIA QUERIES */
+/* MEDIA QUERIES MOBILE */
 
 @media screen and (max-width: 768px){
   .overlay{
@@ -147,8 +158,19 @@ body {
     margin:20px;
   }
 
+  .logo{
+    font-size:25px;
+  }
 
+  .footer-copy{
+    font-size:9px;
+    text-transform: uppercase;;
+  }
 }
+
+/* END MEDIA QUERIES MOBILE */
+
+/* MEDIA QUERIES DESKTOP */
 
 @media screen and (min-width: 768px){
   .mobile-text{
@@ -156,14 +178,17 @@ body {
   }
 }
 
+/* END MEDIA QUERIES DESKTOP */
+
 /* FOOTER */
 
 footer{
   text-transform: capitalize;
   text-align:center;
   margin:20px;
-
 }
+
+
 
 .contact-links{
   margin-bottom:20px;
@@ -172,13 +197,6 @@ footer{
   margin:0 20px;
 }
 
-.logo{
-  font-size:40px;
-  text-align:center;
-  font-weight:bold;
-  text-transform: uppercase;
-  padding:20px;
-}
 
 hr.solid {
   border-top: 1px solid #333;
@@ -186,6 +204,3 @@ hr.solid {
   margin: 20px auto;
 }
 
-.title{
-  font-family: 'Tenor Sans', sans-serif;
-}
