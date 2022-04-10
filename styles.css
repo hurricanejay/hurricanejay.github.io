@@ -2,6 +2,8 @@ body {
   background-color: transparent;
   box-sizing: border-box;
   font-family: 'Prata', serif;
+  width:100%;
+  line-height:2rem;
 }
 
 .logo{
@@ -11,15 +13,44 @@ body {
   text-transform: uppercase;
   padding:20px;
 }
-
-a {
-  font-family: 'Tenor Sans', sans-serif;
-  font-size: 16px;
-  color: #A188A6;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+.title-date-container{
+  display:flex;
+  justify-content:space-between;
 }
+
+.content--wrapper{
+  margin: 30px;
+}
+
+.content--container{
+  width:70%;
+  margin: auto;
+}
+
+h3{
+  font-size: 2rem;
+  text-align:center;
+  color: #A188A6;
+}
+
+.company{
+  text-decoration: underline;
+  font-size:1.5rem;
+}
+
+.content--resume{
+  margin-bottom:0px;
+}
+
+.project--wrapper{
+  display:flex;
+  flex-direction:column;
+}
+
+.good-space, .plantify{
+  width:100%;
+} 
+
 
 /* Navbar container */
 .navbar {
@@ -31,12 +62,18 @@ a {
 
 /* Links inside the navbar */
 .navbar a {
-  font-family: 'Tenor Sans', sans-serif;
   float: left;
   font-size: 16px;
   color: #A188A6;
   text-align: center;
   padding: 14px 16px;
+  text-decoration: none;
+}
+
+a{
+  font-size: 16px;
+  color: #A188A6;
+  text-align: center;
   text-decoration: none;
 }
 
@@ -135,6 +172,7 @@ a {
   position: absolute;
   top: 50%;
   left: 50%;
+  line-height: 4rem;
 
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -153,11 +191,6 @@ a {
     margin:5px;
   }
 
-  .mobile-text{
-    text-align:center;
-    margin:20px;
-  }
-
   .logo{
     font-size:25px;
   }
@@ -165,6 +198,23 @@ a {
   .footer-copy{
     font-size:9px;
     text-transform: uppercase;;
+  }
+
+  .content--wrapper{
+    margin: 10px;
+  }
+
+  .content--container{
+    width:100%;
+  }
+
+  h3{
+    font-size:1.5rem;
+  }
+
+  .company{
+    font-size:1.2rem;
+    text-decoration: underline;
   }
 }
 

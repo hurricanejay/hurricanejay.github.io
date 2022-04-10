@@ -8,12 +8,8 @@
     <!-- styles -->
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
- 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Prata&family=Tenor+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prata&family=Tenor+Sans&display=swap" rel="stylesheet">
 
 </head>
   <body>
@@ -23,10 +19,11 @@
       </div>
       <div class="navbar">
         <div class="dropdown">
-          <button class="dropbtn">Journal
+          <button class="dropbtn">Blogs
             <i class="fa fa-caret-down"></i>
           </button>
           <div class="dropdown-content">
+            <a href="https://medium.com/@hurricanejay">Tech</a>
             <a href="https://jaywenstudio.blogspot.com/">Photography</a>
             <a href="https://plantify.blogspot.com/">Gardening</a>
           </div>
@@ -38,18 +35,77 @@
       <hr class="solid">
     </header>
 
-    <div class="bg-image">
-      <img src="assets/horse.jpg" alt="Horse at Dusk image">
-      <div  class="overlay">
-        <div class="text">
-         Jay is a software engineer, photographer and amateur naturalist based in New York City. 
+    <div class="content--wrapper">
+      <div class="bg-image">
+        <img src="assets/horse.jpg" alt="Horse at Dusk image">
+        <div  class="overlay">
+          <div class="text">
+           Jay is a software engineer, photographer and amateur naturalist based in New York City. 
+          </div>
         </div>
       </div>
+      
+      <div class="content--container">
+        <div class="content--intro">
+          <div class="mobile-text">
+            Jay is a software engineer, photographer and amateur naturalist based in New York City. 
+           </div>
+          <div>When I'm not developing stuff for the interwebz, I'm chasing the light for 
+            <a href="https://jaywen.darkroom.tech/">photos</a>, 
+            <a href="https://plantify.blogspot.com/">gardening</a> 
+            for the bugs and the bees, getting dirty with ceramics or playing beach volleyball.</div>
+        </div>
 
-      <div class="mobile-text">
-        Jay is a software engineer, photographer and amateur naturalist based in New York City. 
-       </div>
+        <div class="content--resume">
+          <h3>Resume</h3>
+          <p class="company">Roswell </p>
+          <div class="title-date-container">
+            <p class="title">Frontend Developer</p>
+            <p class="date">August 2020 - Present</p>
+          </div>
+          <p>🌟 Developed customizable e-Commerce sites and custom features powered by Shopify with Liquid,
+            JavasScript, VueJS, HTML5, CSS3, TailwindCSS, Sass, Scss, and Flexbox</p>
+          <p>🌟 Utilized VueJS to create reusable components to use across various merchant websites</p>
+          <p>🌟 Translated design mockups into fully functional responsive experiences across various devices</p>
+          <p>🌟 Collaborated with the engineering, design and project management teams to provide estimates for client designs and functional requirements</p>
+          <p>🌟 Integrated third party applications to improve acquisition, conversion and customer retention including payment processing, email marketing and SMS, live chat support, and loyalty reward programs..</p>
+        </div>
+  
+        <h3>Past Personal Projects</h3>
+          <div class="project--wrapper">
+            <div class='good-space'>
+              <p class="company">The Good Space</p>
+              <p> This website was inspired by building community around the COVID-19 pandemic and the simplicity of Craigslist. 
+                  I wanted to create a space for information sharing in order to benefit 
+                  members of local communities and to provide a platform that facilitates offering or 
+                  reaching out for help. </p>
+                
+                  <p>Tech Stack: Backend: Ruby on Rails, Frontend: React.js, 
+                      Styling: Bootstrap, Flexbox, API: React Google Maps 
+                      Database: PostgreSQL</p>
+              
+              <a href="https://github.com/hurricanejay/good-space-frontend">The Good Space GitHub</a>    <br><br>
+            
+                <!-- <iframe width="560"  class='video' height="315" src="https://www.youtube.com/embed/W91r_k2rT0E" 
+                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe> -->
+            </div>
+  
+            <div class="plantify">
+              <p class="company">Plantify</p>
+              <p>Plantify is a website for plant lovers (or plant killers) that allows users to keep 
+                  track of their plant care needs and it also reminds them when to water the plants.</p>
+                <p>Backend + Frontend</strong>: Ruby on Rails, HTML, CSS
+                    Styling</strong>: Custom CSS Database</strong>: MySQL</strong></p>
+  
+                <a href="https://github.com/Extraordinarii/Plantify">Plantify GitHub</a>    <br><br>
+                <!-- <iframe width="560" class='video' height="315" src="https://www.youtube.com/embed/ntkYMjSWPzM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+            </div>
+        </div>
+      </div>
     </div>
+
+
   
     <footer class="section">
       <div class="contact-links" id="contact">
