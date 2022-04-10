@@ -90,8 +90,7 @@ a{
   color: #A188A6;;
   padding: 14px 16px;
   background-color: inherit;
-  font-family: 'Tenor Sans', sans-serif; /* Important for vertical align on mobile phones */
-  margin: 0; /* Important for vertical align on mobile phones */
+  font-family: 'Prata', serif; /* Important for vertical align on mobile phones */
 }
 
 /* Add a red background color to navbar links on hover */
@@ -214,6 +213,10 @@ a{
   .company{
     font-size:1.2rem;
     text-decoration: underline;
+  }
+
+  .dropdown .dropbtn {
+    margin-top:3px;
   }
 }
 
