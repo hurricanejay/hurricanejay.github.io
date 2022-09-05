@@ -3,8 +3,8 @@ import { Marquee } from './Marquee'
 
 export const Profile = () => {
   return (
-    <div class="intro">
-        <div class="container">
+    <div className="intro">
+        <div className="container">
 
             <p>Hello, my name is Jay.</p>
 
