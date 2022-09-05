@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/jaywenstudio.com/static/css/main.cc36e347.css",
+    "main.js": "/jaywenstudio.com/static/js/main.97468003.js",
+    "static/js/787.1ed0c42c.chunk.js": "/jaywenstudio.com/static/js/787.1ed0c42c.chunk.js",
+    "index.html": "/jaywenstudio.com/index.html",
+    "main.cc36e347.css.map": "/jaywenstudio.com/static/css/main.cc36e347.css.map",
+    "main.97468003.js.map": "/jaywenstudio.com/static/js/main.97468003.js.map",
+    "787.1ed0c42c.chunk.js.map": "/jaywenstudio.com/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc36e347.css",
+    "static/js/main.97468003.js"
+  ]
+}
