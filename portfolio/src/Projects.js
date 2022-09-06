@@ -19,7 +19,7 @@ export const Projects = () => {
                 </div>
               </div>
 
-              <p> This website was inspired by the COVID-19 pandemic and the simplicity of Craigslist. The name of the project is a riff off of "The Good Place" show. I wanted to create a space for community members to connect with each other by reaching out or receive help. </p>
+              <p> This website was inspired by the COVID-19 pandemic and the simplicity of Craigslist. The name of the project is a riff off of "The Good Place" show. I wanted to create a space for community members to connect with each other by reaching out for help or receive help. </p>
               <p>The project was built with <b>Ruby on Rails</b> backend, <b>React</b> frontend, <b>React Google API</b> for the map, <b>PostGreSQL</b> for database and <b>Boostrap</b> for styling.</p>
    
               <div className="cta-wrapper-mobile">
